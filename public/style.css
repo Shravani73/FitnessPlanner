@@ -47,7 +47,7 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 15px;
+    font-size: 1rem; /* Relative font size */
 }
 
 /* Button hover effect */
@@ -58,17 +58,25 @@ nav {
 
 header, nav {
     background-image: url('images/Full_Body/bg_image.jpg');
-    background-size:unset;
-    background-position: 500px;
+    background-size:cover;
+    background-position: center;
 }
 
 /* Styles for exercise containers */
 .exercise {
-    display: inline-block;
+    display: flex; /* Use flexbox for flexible layout */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.exercise p {
+    padding: 0.5px;
+    font-size: 0.9rem; /* Adjust font size for better readability */
 }
 
 .exercise img {
-    width: 300px;
+    max-width: 400px;
     height: auto;
     display: block;
     margin-top: 10px;
@@ -83,6 +91,31 @@ header, nav {
 
 .exercise img.clicked {
     filter: none; /* Remove the hover filter when the image is clicked */
+}
+
+.exercise-name {
+    text-decoration: underline;
+    font-weight: bold;
+    font-weight: 550;
+}
+
+.video-instruction {
+    color: rgb(15, 15, 198);
+    margin-top: 0.2px;
+}
+
+.end-phrase {
+    border: 2px solid #57886c; /* Forest green border */
+    border-radius: 5px;
+    border-block: #57886c;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333; /* Dark gray text */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
 }
 
 .back-to-top-btn {
@@ -125,5 +158,13 @@ header, nav {
         display: block;
         width: 100%;
         margin: 5px 0; /* Add margin between each button */
+    }
+
+    .exercise img {
+        max-width: 100%;
+    }
+
+    .back-to-top-btn {
+        font-size: 1.0rem; /* Relative font size */
     }
 }
