@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for main content */
+main {
+    background-color:#fff;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+/* Header styles */
+header {
+    background-color: #57886c; /* Forest green header background */
+    color: #fff; /* White text */
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #57886c; /* Forest green navigation background */
+    padding: 5px;
+    text-align: center;
+    color: #fff; /* White text */
+}
+
+.nav-btn {
+    background-color: #fff; /* White background */
+    color: #2c6d48; /* Forest green text */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+/* Button hover effect */
+.nav-btn:hover {
+    background-color: #b1ab8d;
+    transform: scale(1.1);
+}
+
+header, nav {
+    background-image: url('images/Full_Body/bg_image.jpg');
+    background-size:unset;
+    background-position: 500px;
+}
+
+/* Styles for exercise containers */
+.exercise {
+    display: inline-block;
+}
+
+.exercise img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid black;
+}
+
+.exercise img:hover {
+    filter: drop-shadow(10px 10px 16px #7e6c4d);
+    transition: filter 0.3s ease;
+}
+
+.exercise img.clicked {
+    filter: none; /* Remove the hover filter when the image is clicked */
+}
+
+.back-to-top-btn {
+    background-color: #6d7977;
+    color:  #fff; /* White background */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    transition: background-color 0.3s ease;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.back-to-top-btn:hover {
+    transition: filter 0.3s ease;
+    transform: scale(1.1);
+    background-color:  #b1ab8d;
+}
+
+.back-to-top-btn::before {
+  content: "▲";
+  margin-right: 5px;
+}
+
+.back-to-top-btn:hover::before {
+  content: "↑";
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .nav-btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0; /* Add margin between each button */
+    }
+}
