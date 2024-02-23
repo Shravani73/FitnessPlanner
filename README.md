@@ -86,5 +86,5 @@ We acknowledge and appreciate the creators and sources of the images and videos 
 
 ## License
 
-This project is licensed under the MIT License - see the [License](License) file for details.
+This project is licensed under the [MIT License](LICENSE.txt) - see the LICENSE.txt file for details.
 
