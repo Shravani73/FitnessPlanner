@@ -14,13 +14,13 @@ The Fitness Planner Web Application is a responsive web application designed to 
 ## Screenshots
 
 ### Main Page
-![Main Page](mainpage.png)
+![Main Page](screenshots/mainpage.png)
 
 ### Mobile Device View
-![Mobile Device View](mobile_device_mainpage.jpeg)
+![Mobile Device View](screenshots/mobile_device_mainpage.jpeg)
 
 ### Interactive Navigation Buttons
-![Interactive Navigation Buttons](interactive_navigation_buttons.png)
+![Interactive Navigation Buttons](screenshots/interactive_navigation_buttons.png)
 
 ### Navigation Button
 ![Navigation Button](nav_button.png)
