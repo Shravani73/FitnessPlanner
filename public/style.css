@@ -168,3 +168,20 @@ header, nav {
         font-size: 1.0rem; /* Relative font size */
     }
 }
+
+/* Define a class for fixed size images */
+.fixed-size-image {
+    width: auto; /* Adjust to desired width */
+    height: auto; /* Adjust to desired height */
+    object-fit: cover; /* This ensures the image covers the entire area while maintaining aspect ratio */
+    border: 0.5px solid black;
+}
+
+.fixed-size-image:hover {
+    filter: drop-shadow(10px 10px 16px #7e6c4d);
+    transition: filter 0.3s ease;
+}
+
+.fixed-size-image.clicked {
+    filter: none; /* Remove the hover filter when the image is clicked */
+}
