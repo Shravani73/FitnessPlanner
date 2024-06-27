@@ -2,7 +2,7 @@
 
 ## Description
 
-The Fitness Planner Web Application is a responsive web application designed to provide users with a structured workout plan for various muscle groups. Users can navigate through different sections such as Push, Pull, Lower Body, Abs & Cardio, and Full Body to access workout routines and instructional videos for each exercise.
+The Fitness Planner Web Application is a responsive web application designed to provide users with a structured workout plan for various muscle groups. Users can navigate through different sections such as Push, Pull, Lower Body, Abs & Cardio - 1, Abs & Cardio - 2 and Full Body to access workout routines and instructional videos for each exercise.
 
 ## Features
 
@@ -20,7 +20,7 @@ The Fitness Planner Web Application is a responsive web application designed to 
 ![Mobile Device View](public/screenshots/mobile_device_mainpage.jpeg)
 
 ### Interactive Navigation Buttons
-![Interactive Navigation Buttons](public/screenshots/interactive_navigation_buttons.png)
+![Interactive Navigation Buttons](public/screenshots/mobile_device_mainpage.PNG)
 
 ### Navigation Button
 ![Navigation Button](public/screenshots/nav_button.png)
@@ -30,7 +30,6 @@ The Fitness Planner Web Application is a responsive web application designed to 
 
 ### Navigation Buttons
 ![Navigation_Buttons](public/screenshots/navigation_buttons.png)
-
 ### Responsive Design
 ![Responsive_Design](public/screenshots/responsive_design.png)
 
@@ -54,7 +53,7 @@ To host the server on other devices connected to the same network:
 2. Clone the repository:
 `git clone https://github.com/Shravani73/FitnessPlanner.git`
 3. Navigate to the project directory and install dependencies:
-cd FitnessPlanner
+cd workout-plan
 npm install
 4. Start the server:
 node webpage.js
